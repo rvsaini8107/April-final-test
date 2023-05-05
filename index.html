@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="stylesheet" href="./style.css">
+    <title>April final Test</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <div class="heading">
+                <h3>Student Portal</h3>
+                
+            </div>
+            <div class="search-bar">
+                <input type="text" name="search" placeholder="Search" id="search">
+                <div class="button btn-search">Search</div>
+            </div>
+            <div class="header-button" id="header-button">
+                <div class="button btn btn-1" data-sort-type="name-asc">Sort A->Z</div>
+                <div class="button btn btn-2" data-sort-type="name-desc">Sort Z->A</div>
+                <div class="button btn btn-3" data-sort-type="marks-asc">Sort By Marks</div>
+                <div class="button btn btn-4" data-sort-type="passing">Sort By Passing</div>
+                <div class="button btn btn-5" data-sort-type="class-asc">Sort By Class</div>
+                <div class="button btn btn-6" data-sort-type="gender">Sort By Gender</div>
+            </div>
+        </header>
+        <main class="main" id="main">
+            <table>
+                <thead id="tb-header">
+                    <tr id="tb-fh-row">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Class</th>
+                        <th>Marks</th>
+                        <th>Passing</th>
+                        <th>Email</th>
+                    </tr>
+
+                </thead>
+                <tbody id="tb-body">
+                    <!-- <tr>
+                        <td>1</td>
+                        <td><img src="" alt="" class="img-in-tb"> Avi Vashishta</td>
+                        <td>Male</td>
+                        <td>12</td>
+                        <td>99</td>
+                        <td>Failed</td>
+                        <td>avi@gmail.com</td>
+                    </tr> -->
+
+                </tbody>
+
+
+
+            </table>
+            <div class="male-table" id="male-table">
+                <table>
+                    <thead id="tb-header-male">
+                        <tr id="tb-fh-row-male">
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Class</th>
+                            <th>Marks</th>
+                            <th>Passing</th>
+                            <th>Email</th>
+                        </tr>
+    
+                    </thead>
+                    <tbody id="tb-body-male">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td><img src="" alt="" class="img-in-tb"> Avi Vashishta</td>
+                            <td>Male</td>
+                            <td>12</td>
+                            <td>99</td>
+                            <td>Failed</td>
+                            <td>avi@gmail.com</td>
+                        </tr> -->
+    
+                    </tbody>
+    
+    
+    
+                </table>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+    
+        </footer>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
